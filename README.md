@@ -43,6 +43,5 @@ notebook-app/
 └── README.md
 ```
 ```
-git clone https://github.com/YOUR-USERNAME/notebook-app.git
-
+https://github.com/Essabki/NoteBook.git
 ```
