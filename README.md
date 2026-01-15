@@ -6,7 +6,10 @@ Notes are saved locally in the browser and support **multi-line list notes**, us
 This README includes instructions to run the app with **Node.js** serving files from the `public/` folder.
 
 ---
+<img width="1368" height="539" alt="Capture d’écran 2026-01-15 153327" src="https://github.com/user-attachments/assets/cf2806bb-a165-4a2d-9fb6-8938b219224f" />
+<img width="1363" height="550" alt="Capture d’écran 2026-01-15 153406" src="https://github.com/user-attachments/assets/e9ca1e2b-2456-4702-b2cf-02ccec4b6e8f" />
 
+---
 ## ✨ Features
 
 - 📝 Create notes with **multiple lines** (Enter = new list item)
