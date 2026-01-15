@@ -1,0 +1,87 @@
+
+input, textarea, button{
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  background: var(--item);
+  color: var(--text);
+  border: none;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+textarea{
+  resize: none;
+}
+button{
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+  font-weight: 500;
+}
+button:hover {
+  background: #0056cc; /* Darker blue on hover */
+}
+/* NOTES */
+.note{
+  width: 65%;
+  background: var(--card);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px var(--shadow);
+}
+.note-item{
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  margin-bottom: 12px;
+  background: var(--item);
+  border-radius: 15px;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: 0.2s;
+}
+.note-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+.note-item img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bg);
+  box-shadow: 0 1px 5px var(--shadow);
+}
+.actions button{
+  margin-left: 8px;
+  width: auto;
+  padding: 8px 12px;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 8px;
+}
+.actions button:hover {
+  background: var(--accent);
+  color: white;
+}
+/* TOGGLE */
+.toggle{
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  background: var(--card);
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px var(--shadow);
+  backdrop-filter: blur(10px); /* Subtle glass effect */
+  transition: 0.2s;
+}
+.toggle:hover {
+  transform: scale(1.1);
+}
+
